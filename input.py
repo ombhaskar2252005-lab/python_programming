@@ -1,0 +1,15 @@
+a = input("Enter first number: ")
+b = input("Enter second number: ")
+sum = int(a) + int(b)
+average = sum/2
+print( average)
+c = input("Enter the number: ")
+square = int(c) * int(c)
+print("the square is: ", square)
+#calculator
+add = print("Addition: ", sum)
+sub = print(int(a) - int(b))
+mul = print(int(a) * int(b))
+div = print(int(a) / int(b))
+remainder = print( int(a) % int(b))
+floordiv = print(int(a) // int(b))
