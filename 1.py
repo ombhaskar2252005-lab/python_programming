@@ -10,6 +10,7 @@ g = int(input("Enter a number: "))
 j = int(input("Enter 2nd number: "))
 subtract = g - j
 print(subtract)
+#tuple 
 tup = 1,3
 print(type(tup))
 tup1 = 1, # , se tuple type ho jata ha
