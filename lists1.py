@@ -63,5 +63,12 @@ print("List Methods " , num)
 # n=word.count("ok")
 # print(n)
 
-new_num = num.copy()
-print(new_num)
+# new_num = num.copy()
+# print(new_num)
+
+print()
+
+# List Input
+num = list(map(int,input().split())) #yahan pe map se map perform krta same operation on every element 
+#or split() se normal input le shakte ha list me comma wale k lie split(",")
+print(num)
