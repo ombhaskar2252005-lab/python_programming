@@ -20,3 +20,8 @@ name = "om"
 print(name.isalpha())
 you = "ehw7y39"
 print(you.isalnum())
+name1 = "bhaskar"
+country = "india"
+print(f"hey my name is {name1} and i am from {country}.")
+price = 89.0982
+print(f"the cake price is {price:.2f}")

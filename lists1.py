@@ -69,6 +69,6 @@ print("List Methods " , num)
 print()
 
 # List Input
-num = list(map(int,input().split())) #yahan pe map se map perform krta same operation on every element 
-#or split() se normal input le shakte ha list me comma wale k lie split(",")
+num = list(map(int,input().split())) #yahan pe map sare input ko int me convert krta ha iterable way me
+#or split() se normal input le shakte ha jabki comma wale input ke liye list me ye use split(",") karte ha
 print(num)
