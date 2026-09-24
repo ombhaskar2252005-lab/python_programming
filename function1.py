@@ -37,4 +37,5 @@ def subtract(x,y):
     return a-b
 a = int(input("Enter a num for subtraction: \n"))
 b = int(input("Enter 2nd num for subtraction: \n"))
-print(subtract(a,b))
+result = subtract(a,b)
+print(result)
