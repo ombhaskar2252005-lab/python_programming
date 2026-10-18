@@ -5,7 +5,7 @@ word ='''hey i am
 om from patna bihar
 studying in bhilai'''
 print(a[0]) #string index number se store hota ha 0 se start hoga
-for character in word: #is se sare word print hp jayenge
+for character in word: #is se sare word print ho jayenge
     print(character)
 #Slicing operation
 word = "amazing"

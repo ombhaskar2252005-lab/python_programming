@@ -69,3 +69,11 @@ while n>0:
     n = n//10
     count = count + 1
 print(count)
+
+m = int(input("enter number: "))
+sum =0
+while(m>0):
+    temp = m%10
+    sum = sum + temp
+    m = m//10
+print(sum)
