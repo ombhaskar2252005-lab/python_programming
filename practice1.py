@@ -53,3 +53,33 @@ for ch in string:
     if ch.lower() in "aeiou":   # lower used krne se sare letter string ke lower me ho jayenge
         count = count+1
 print("Number of vowel: " , count)
+# cnt = input("Enter a character to count: ")
+# print(string.count(cnt))
+
+#remove space
+word1 = input("Enter a Sentence: ")
+result1 = ""
+for ch in word1:
+    if ch != " ":
+        result1 = result1 + ch
+print(result1)
+#remove duplicate
+word = input("Enter a word: ")
+result = ""
+for ch in word:
+    if ch not in result:
+        result = result + ch
+print(result) 
+#Count a letter
+word = input("Enter a word: ")
+ch = input("Enter a letter: ")
+count =0
+for i in word:
+    if i.lower() == ch.lower():
+        count = count+1
+print(count)
+#frequency 
+word = input()
+for i in word:
+    if i not in "":
+        print(i, ":", word.count(i))
