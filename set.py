@@ -21,7 +21,7 @@ print(ele)
 a = {1,3,5,6}
 b={1,2,4,6}
 print(a.union(b))
-print(a.intersection(b))
+print(a.intersection(b)) #commom output deta ha
 print(a.difference(b))
 print(a.symmetric_difference(b))
 c = {2,3,4,8}
