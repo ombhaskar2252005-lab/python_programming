@@ -1,4 +1,5 @@
 #basic code of oops
+#1
 class student:
     def __init__(self): # default constructor
         self.name = "rahul"
@@ -11,7 +12,7 @@ s1 = student()
 s1.gender = "male" #we can make variable outside the class but it is not a good practice
 s1.display()
 print(id(s1)) 
-
+#2
 class car:
     def __init__(self,name,model):
         self.name = name
@@ -39,6 +40,7 @@ print(id(f1))
 print(id(f2))
 
 print()
+
 #special method __init__(),__str__(),__add__(),__sub__(),__mul__(),__truediv__() ye sab hote hai
 class fraction:
     def __init__(self,x,y):

@@ -7,6 +7,7 @@ m = Mobile("apple")
 print(m.name)
 m.name = "nokia" #can modify directly
 print(m.name)
+
 # 2. Protected members:
 print()
 class Car:
